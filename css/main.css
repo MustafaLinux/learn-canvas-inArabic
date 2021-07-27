@@ -33,7 +33,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--the-color-hover);
 }
-
+html {
+  scroll-behavior: smooth !important;
+}
 body {
     direction: rtl;
     margin: 0;
@@ -63,6 +65,7 @@ nav ul {
     color:  var(--head-font-color);
     padding: 8px 16px;
     text-decoration: none;
+    transition: 0.4s;
  
   }
   
@@ -98,6 +101,9 @@ main {
   color: var(--the-color);
   font-family:  monospace;
   font-size: 19px;
+  background-color: var(--seco-bg-color);
+  padding: 2px;
+  border-radius:4px ;
 }
 
 section {
