@@ -7,8 +7,31 @@
     --main-font-color: #d4d4d4;
     --head-font-color: rgb(240, 240, 240);
     --the-color: #557cff;
+    --the-color-hover: #4c6fe4d3;
 
   
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--main-bg-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--the-color);
+  border-radius: 2px;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--the-color-hover);
 }
 
 body {
@@ -17,6 +40,7 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-font-color);
     font-family: 'Cairo', sans-serif;
+    
 }
 nav {
     width: 23%;
@@ -66,7 +90,7 @@ main {
     border-right:4px solid var(--the-color);
     border-radius: 1%;
     background-color: var(--seco-bg-color);
-    padding: 5px;
+    padding: 5px 10px 5px 0;
 
 }
 
@@ -82,7 +106,7 @@ section {
 }
 
 .alert {
-  background: var(--seco-bg-color);
+  /* background: var(--seco-bg-color); */
   color: red;
   border-right: 2px solid red;
   border-radius: 10px;
