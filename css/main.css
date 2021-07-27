@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+:root {
+ 
+    --main-bg-color: #0d0d11;
+    --seco-bg-color: #121217;
+    --main-font-color: #d4d4d4;
+    --head-font-color: rgb(240, 240, 240);
+    --the-color: #557cff;
+
+  
+}
+
+body {
+    direction: rtl;
+    margin: 0;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    font-family: 'Cairo', sans-serif;
+}
+nav {
+    width: 23%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: var(--seco-bg-color);
+    color: var(--head-font-color);
+    box-shadow: -1px 0px 10px 5px #00000061;
+  
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 10px;   
+  }
+  
+  li a {
+    display: block;
+    color:  var(--head-font-color);
+    padding: 8px 16px;
+    text-decoration: none;
+ 
+  }
+  
+  .active{
+    color: var(--the-color);
+    border-right: 2px solid var(--the-color);
+    
+  }
+  
+  
+  li a:hover {
+    background-color: var(--main-bg-color);
+
+  }
+
+main {
+  margin-right:23%;
+  padding:1px 16px;
+  height:1000px;
+}
+
+.head {
+  padding-right: 2%;
+    color: var(--head-font-color);
+    border-right:4px solid var(--the-color);
+    border-radius: 1%;
+    background-color: var(--seco-bg-color);
+    padding: 5px;
+
+}
+
+.in-text {
+  color: var(--the-color);
+  font-family:  monospace;
+  font-size: 19px;
+}
+
+section {
+  font-size:17px;
+  margin-top: 5%;
+}
+
+.alert {
+  background: var(--seco-bg-color);
+  color: red;
+  border-right: 2px solid red;
+  border-radius: 10px;
+  padding: 10px 20px 10px 0;
+}
