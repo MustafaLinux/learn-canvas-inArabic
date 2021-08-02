@@ -101,7 +101,7 @@ pre[class*="language-"] {
 .token.attr-value,
 .token.regex,
 .token.variable {
-	color: #d69d85;
+	color: #ff9f76;
 }
 
 .token.operator,

@@ -14,7 +14,7 @@
 
 ::-webkit-scrollbar {
   width: 6px;
-;
+  height: 6px;
 }
 
 /* Track */
@@ -39,22 +39,22 @@ html {
 
 }
 body {
-    direction: rtl;
+    /* direction: rtl; */
     margin: 0;
     background-color: var(--main-bg-color);
     color: var(--main-font-color);
     font-family: 'Cairo', sans-serif;
+   direction: rtl;
     
 }
 nav {
-    width: 23%;
+    width: 20%;
     height: 100%;
     position: fixed;
     overflow: auto;
     background-color: var(--seco-bg-color);
     color: var(--head-font-color);
     box-shadow: -1px 0px 10px 5px #00000061;
-  
 }
 nav ul {
     list-style-type: none;
@@ -85,7 +85,7 @@ nav ul {
   }
 
 main {
-  margin-right:23%;
+  margin-right:21%;
   padding:1px 16px;
   height:1000px;
 }
@@ -157,6 +157,7 @@ pre {
   border:1px solid rgb(238 238 238 / 14%);
   border-radius: 7px;
   box-shadow: 0px 5px 6px 3px #00000061;
+  direction: ltr;
  
 }
 
